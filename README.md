@@ -62,10 +62,15 @@ python -m pytest tests/ -v
 python run.py
 ```
 
-El servidor estará activo en:
-- **API Base:** `http://127.0.0.1:5000`
-- **Documentación Interactiva Swagger UI:** `http://127.0.0.1:5000/api/docs`
-- **Health Check:** `http://127.0.0.1:5000/api/health`
+El servidor local estará activo en:
+- **API Base Local:** `http://127.0.0.1:5000`
+- **Documentación Interactiva Swagger UI Local:** `http://127.0.0.1:5000/api/docs`
+- **Health Check Local:** `http://127.0.0.1:5000/api/health`
+
+### 🌐 Despliegue en Producción (Render):
+- **URL Base:** [https://turnos-backend-api-1gq9.onrender.com](https://turnos-backend-api-1gq9.onrender.com)
+- **Documentación Interactiva Swagger UI en Vivo:** [https://turnos-backend-api-1gq9.onrender.com/api/docs](https://turnos-backend-api-1gq9.onrender.com/api/docs)
+- **Health Check en Producción:** [https://turnos-backend-api-1gq9.onrender.com/api/health](https://turnos-backend-api-1gq9.onrender.com/api/health)
 
 ---
 

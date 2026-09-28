@@ -18,3 +18,9 @@ services:
         generateValue: true
       - key: CORS_ORIGINS
         value: "https://nahueling.github.io,http://localhost:5173"
+      - key: SUPABASE_URL
+        value: "https://nejhytfdaiqcvxeipzkd.supabase.co"
+      - key: SUPABASE_ANON_KEY
+        value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5lamh5dGZkYWlxY3Z4ZWlwemtkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA1OTUzNjYsImV4cCI6MjEwNjE3MTM2Nn0.GDXXZ98f6sY39UdvPjW5OlsRpaOhPLUPRIvNbM31g5E"
+      - key: SUPABASE_PUBLISHABLE_KEY
+        value: "sb_publishable_-4jwpagSb8WL9zcsBmArsQ_zqoWJrum"
